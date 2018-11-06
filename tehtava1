@@ -1,0 +1,37 @@
+#if 1
+// Tehtävä 1
+    void zmain(void)
+    {
+        printf("\ntoimii\n");
+    
+        Beep(500,150);
+        vTaskDelay(500);
+        Beep(500,150);
+        vTaskDelay(500);
+        Beep(500,150);
+        vTaskDelay(500);
+        
+        Beep(1500,150);
+        vTaskDelay(500);
+        Beep(1500,150);
+        vTaskDelay(500);
+        Beep(1500,150);
+        vTaskDelay(500);
+        
+        Beep(500,150);
+        vTaskDelay(500);
+        Beep(500,150);
+        vTaskDelay(500);
+        Beep(500,150);
+        vTaskDelay(500);
+       
+        
+        while(true)
+    {
+        vTaskDelay(100); // sleep (in an infinite loop)
+    }
+ }   
+            
+        
+            
+#endif
